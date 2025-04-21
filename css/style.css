@@ -313,6 +313,10 @@ button:focus {
   grid-template-rows: repeat(2, 1fr);
   gap: 1rem;
 }
+.projects.anim-out {
+  opacity: 0;
+  transform: scale(0.9) translateY(20px);
+}
 .project {
   position: relative;
   border-radius: 8px;
@@ -378,7 +382,7 @@ button:focus {
   border-radius: 8px;
   box-shadow: rgba(0, 0, 0, 0.3) 0px 3px 8px;
 }
-.license__buble__name {
+.license__bubble__name {
   color: var(--color-accent);
   font-weight: bold;
   filter: brightness(70%);
